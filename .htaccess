@@ -6,11 +6,19 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+<<<<<<< HEAD
 RewriteBase /YouCode/Brief_Cr%C3%A9ez_un_site_web_Ecommerce_avec_WooCommerce/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /YouCode/Brief_Cr%C3%A9ez_un_site_web_Ecommerce_avec_WooCommerce/index.php [L]
+=======
+RewriteBase /YouCode/ecom_wp/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /YouCode/ecom_wp/index.php [L]
+>>>>>>> c1892b768e518354637e8932ea800b037fd525d7
 </IfModule>
 
 # END WordPress
