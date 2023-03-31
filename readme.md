@@ -1,6 +1,6 @@
-#### Créez un site web E-commerce avec WooCommerce
-### Contexte du projet
-## Objectif:
+# Créez un site web E-commerce avec WooCommerce
+## Contexte du projet
+### Objectif:
 
 - Nous recherchons un développeur talentueux pour créer un site web
 - E-commerce pour notre entreprise. Le site web doit être développé avec WordPress et WooCommerce et doit permettre aux utilisateurs d'acheter nos produits en ligne.
